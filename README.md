@@ -7,7 +7,5 @@
 5. HW20 Позиціонування
    https://942875721-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-MbjhfFkYBbYEPTQa-y0%2F-MfsaA8AcYHMFuVymaFa%2F-Mfscpc71elC3e5f7iHe%2Fhw-sidemenu-.gif?alt=media&token=b29dfaae-8191-4762-977a-a95755c83ca6
 
-![image](https://github.com/zenya385/ZWProgressView/blob/master/Untitled3.gif)
-Описание:
-https://github.com/ZhengYaWei1992/ZWProgressView/blob/master/Untitled3.gif
-URL-адрес ссылки - это URL-адрес ссылки, отображаемый в github после загрузки изображения в формате gif.
+6. HW25-27 Bootstrap
+   https://www.figma.com/file/GMMCe32deQ1lFrAvDLA53d/Untitled-(Copy)?node-id=1%3A14
