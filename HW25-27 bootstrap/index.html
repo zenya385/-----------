@@ -7,6 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
   <title>Eats</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -16,27 +21,20 @@
 
     <div class="row">
       <div class="col-2">
-        <div class="block">LOGO</div>
+        <div class="logo py-5"><a href="#"><img src="img/logo.png" alt=""></a></div>
       </div>
-      <div class="col-10 block">Navigation
-        <!-- <div class="el">Home</div>
-        <div class="el">Product</div>
-        <div class="el">Faq</div>
-        <div class="el">Contact</div> -->
+      <div class="col-10 px-5 d-flex flex-row justify-content-end align-items-center">
+        <div class="el  px-5">Home</div>
+        <div class="el px-5">Product</div>
+        <div class="el px-5">Faq</div>
+        <div class="el px-5">Contact</div>
       </div>
-      <!-- <div class="col">
-                      
-                    </div>
-                    <div class="col">
-                    </div>
-                    <div class="col">
-                    </div> -->
     </div>
 
   </header>
   <main class="main container">
     <section class="hero row">
-      <div class="col-12 block">
+      <div class="col-12">
         <div class="block">
           <h3>Restaurant app</h3>
         </div>
@@ -49,71 +47,76 @@
             you can order form Eats</h4>
         </div>
         <div class="block">
-          <button>Delivery</button>
-          <button>Menu</button>
+          <button type="button" class=" hero-btn btn btn-outline-warning">Delivery</button>
+          <button type="button" class=" hero-btn btn btn-outline-warning">Menu</button>
         </div>
       </div>
     </section>
-    <section class="works mb-170">
+    <section class="works">
       <div class="row">
         <div class="col text-center">
-          <h2>How the app works</h2>
+          <h2 class="text_works_item">How the app works</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-4 works-block">
-
+          <img src="img/works-imj1.png" alt="">
         </div>
-        <div class="col-8 works-block">
+        <div class="col"></div>
+        <div class="col-6 works-block">
           <div class="block">
-            <h3>Create an account</h3>
+            <h3 class="text_works_h3">Create an account</h3>
           </div>
           <div class="block">
-            <h2>Create/login to an existing
+            <h2 class="text_works_h2">Create/login to an existing
               account to get started</h2>
           </div>
           <div class="block">
-            <h4>An account is created with your email
+            <h4 class="text_works_h4">An account is created with your email
               and a desired password</h4>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-8 works-block">
+        <div class="col-6 works-block">
           <div class="block">
-            <h3>Explore varieties</h3>
+            <h3 class="text_works_h3">Explore varieties</h3>
           </div>
           <div class="block">
-            <h2>Shop for your favorites
+            <h2 class="text_works_h2">Shop for your favorites
               meal as e dey hot.</h2>
           </div>
           <div class="block">
-            <h4>Shop for your favorite meals or drinks
+            <h4 class="text_works_h4">Shop for your favorite meals or drinks
               and enjoy while doing it.</h4>
           </div>
         </div>
-        <div class="col-4 works-block"></div>
+        <div class="col"></div>
+        <div class="col-4 works-block">
+          <img src="img/works-imj2.png" alt="">
+        </div>
       </div>
     </section>
     <section class="order order-block container">
       <div class="row">
         <div class="col-12 block">
-          <h2>Order now</h2>
+          <h2 class="text_order_item">Order now</h2>
         </div>
         <div class="col-12 block">
-          <h4>Available on your favorite store. Start your premium experience now</h4>
+          <h4 class="text_order_h4">Available on your favorite store. Start your premium experience now</h4>
         </div>
         <div class="col-12 block">
-          <button>Delivery</button>
-          <button>Menu</button>
+          <button type="button" class=" order-btn btn btn-outline-warning">Playstore</button>
+          <button type="button" class=" order-btn btn btn-outline-warning">App store</button>
         </div>
       </div>
     </section>
   </main>
   <footer class="footer container block">
     <div class="row  footer-block">
-      <div class="col-2">LOGO</div>
-      <div class="col-4">Copywright 2020 Bella Onojie.com</div>
+      <div class=" col-2 py-4"><a href="#"><img src="img/logo.png" alt=""></a></div>
+      <div class="col-7  "></div>
+      <div class="col-3 text-start d-flex align-items-center py-3 copy">Copywright 2020 Bella Onojie.com</div>
     </div>
   </footer>
 
