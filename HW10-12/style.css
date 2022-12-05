@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Playfair Display;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.header {
+  height: 90px;
+  padding: 70px 330px 0 330px;
+}
+
+.section h1 {
+  display: none;
+}
+
+.list {
+  display: inline-block;
+  /* margin: 0 auto; */
+}
+
+.item a {
+  font-size: 14px;
+
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #7D7D7D;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+/* .item:nth-child(4) {
+  margin-right: 0;
+} */
+
+.item a:hover {
+  color: #03A9F4;
+}
