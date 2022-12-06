@@ -1,7 +1,8 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: Playfair Display;
-  font-weight: 400;
+
 
 }
 
@@ -9,6 +10,12 @@ a {
   text-decoration: none;
   color: #7D7D7D;
   cursor: default;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
 }
 
 ul,
@@ -63,7 +70,7 @@ li {
 /* ==================== section ================= */
 
 .cart {
-  font-weight: 400;
+  /* font-weight: 400; */
   color: #626262;
 }
 
@@ -78,7 +85,6 @@ li {
 .cart h2 {
   font-size: 30px;
   line-height: 40px;
-  font-weight: 400;
 }
 
 .cart p {
